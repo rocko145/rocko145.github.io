@@ -17,6 +17,8 @@
     <!-- Custom CSS -->
     <link href="css/scrolling-nav.css" rel="stylesheet">
 
+    <link href="css/font-awesome.css" rel="stylesheet" />
+ 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -69,6 +71,7 @@
 
     <!-- Intro Section -->
     <section id="intro" class="intro-section">
+    <div class="overlay">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -81,6 +84,7 @@
                 </div>
             </div>
         </div>
+    </div>
     </section>
 
 
@@ -145,22 +149,33 @@
     <!-- Contact Section -->
     <section id="doc" class="doc-section">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h1>Необхідні документи</h1>
+            <div class="row text-center pad-bottom">
+                <div class="col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3">
+                    <h2 class="head-set">Перелік необхідних документів</h2>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-lg-5">
+            <div class="row text-center">
+
+                <div class="col-md-4 col-sm-4 col-xs-12">
+                    <i class="fa fa-pencil-square-o  fa-5x"></i>
+                    <h4 class="head-set">Довідка</h4>
+                    <p>
+                        Інформація та адреса як її можна отримати
+                    </p>
                 </div>
-                <div class="col-lg-1">
-                    <h3>
-                    <ul type="disc">
-                        <li>Справка</li>
-                        <li>Квитанція</li>
-                        <li>Фото</li>
-                    </ul> 
-                    </h3>
+                <div class="col-md-4 col-sm-4 col-xs-12">
+                    <i class="fa fa-user  fa-5x"></i>
+                    <h4 class="head-set">Фото</h4>
+                    <p>
+                        Дві фотокартки розміром 4х4
+                    </p>
+                </div>
+                <div class="col-md-4 col-sm-4 col-xs-12">
+                    <i class="fa fa-money  fa-5x"></i>
+                    <h4 class="head-set">Квитанція</h4>
+                    <p>
+                        Ціна навчання та реквізити отримувача
+                    </p>
                 </div>
             </div>
         </div>
@@ -169,16 +184,16 @@
     <!-- Contact Section -->
 
     <section id="contact" class="contact-section">
-        <div class="container">
-        <div class="row">
-        <h1>Контакти</h1></div>
+    <div class="overlay">
+        <div id="row-contact" class="row">
+        <h1>Контакти</h1>
         <div id="contact-container" class="container">
             <div id="contants-row" class="row">
                 <div class="col-sm-4">
                     <div id="map-canvas"></div>
                 </div>
                 <div class="col-sm-8">  
-                <div id="jumbotron-contacts"class="jumbotron">
+               
                   <h3>
                       <br>
                       username@gmail.com<br>
@@ -187,11 +202,12 @@
                       Межигірського спасу 1      
                   </h3>       
                     <!-- <object type='text/plain charset=utf-8' data='c.html' border='0' ></object> -->
-                  </div>
+             
                 </div>
             </div>
+       
         </div>
-        </div>
+    </div>
     </section>
     
     <footer>

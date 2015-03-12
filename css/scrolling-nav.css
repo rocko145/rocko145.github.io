@@ -49,24 +49,45 @@ of those sections to manage the look and feel of the site. */
     height: 100%;
     padding-top: 150px;
     text-align: center;
-    background: #eee;
+    
+    /*background: #eee;*/
+
 }
 
 .contact-section {
     height: 100%;
-    padding-top: 150px;
     text-align: center;
-    /*background: url('../'); */  
-    /* background: #f5f3ee; */
-    /* -webkit-filter: sepia(20%) brightness(10%) contrast(130%);
-     background: #fff; */
+    background: url('../race.jpg');
+    -webkit-background-size: cover;
+    background-size: cover;
+    -moz-background-size: cover;
+background-attachment: fixed;
+}
+
+#row-contact{
+    padding-top: 150px;
+    
+}
+
+#contact .overlay {
+    height: 100%;
+    background-color: rgba(204, 204, 234,0.6); /*.75 opacity of the color so that background image is visible*/
+
+}
+
+#contact h1 {
+        /*padding-top: 80px; */
+        font-weight: 900;
+        font-size: 100px;
+        font-family: 'Browallia New';
+    }
+    
+
+.pad-bottom {
+    padding-bottom: 60px;
 }
 
 #map-canvas {
-    height:300px;
-}
-
-#jumbotron-contacts{
     height:300px;
 }
 
