@@ -56,7 +56,7 @@ of those sections to manage the look and feel of the site. */
 
 .contact-section {
     height: 100%;
-    text-align: center;
+    text-align: left;
     background: url('../race.jpg');
     -webkit-background-size: cover;
     background-size: cover;
@@ -64,22 +64,21 @@ of those sections to manage the look and feel of the site. */
 background-attachment: fixed;
 }
 
-#row-contact{
-    padding-top: 150px;
+#row-contact-main{
+    padding-top: 100px;
     
 }
 
 #contact .overlay {
     height: 100%;
-    background-color: rgba(204, 204, 234,0.6); /*.75 opacity of the color so that background image is visible*/
+    background-color: rgba(204, 204, 234,0.2); /*.75 opacity of the color so that background image is visible*/
 
 }
 
 #contact h1 {
-        /*padding-top: 80px; */
-        font-weight: 900;
-        font-size: 100px;
-        font-family: 'Browallia New';
+        /*padding-top: 80px; 
+        font-weight: 900;  */
+        font-size: 40px;  
     }
     
 
@@ -89,10 +88,12 @@ background-attachment: fixed;
 
 #map-canvas {
     height:300px;
+    
 }
 
 #contact-container{
     padding-top:30px;
+    padding-left:15px;
 }
 
 .carousel-inner > .item > img {
