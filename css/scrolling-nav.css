@@ -38,13 +38,6 @@ of those sections to manage the look and feel of the site. */
     background: rgba(141,182,205, 0.7);
 }
 
-.category-section {
-    height: 100%;
-    text-align: center;
-    background: #ccc; 
-   
-}
-
 .doc-section {
     height: 100%;
     padding-top: 150px;
@@ -71,7 +64,7 @@ background-attachment: fixed;
 
 #contact .overlay {
     height: 100%;
-    background-color: rgba(204, 204, 234,0.1); /*.75 opacity of the color so that background image is visible*/
+    background-color: rgba(255, 255, 255,0.8); /*.75 opacity of the color so that background image is visible*/
 
 }
 
