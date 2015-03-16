@@ -97,8 +97,12 @@ color works in IE7+
     height: 50%;
 }
 
-.pad-bottom {
+.pad-bottom1 {
     padding-bottom: 35px;
+}
+
+.pad-bottom2 {
+    padding-bottom: 20px;
 }
 
 .dovidka-pic{
