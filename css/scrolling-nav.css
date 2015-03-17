@@ -98,11 +98,20 @@ color works in IE7+
 }
 
 .pad-bottom1 {
-    padding-bottom: 35px;
+    padding-bottom: 30px;
 }
 
 .pad-bottom2 {
-    padding-bottom: 20px;
+    padding-bottom: 15px;
+}
+
+.zoom-img-note{
+    padding-top: 15px;
+}
+
+.jambo-pay{
+    padding-top: 15px;
+    padding-bottom: 65px;
 }
 
 .dovidka-pic{
@@ -124,20 +133,30 @@ color works in IE7+
       height: 750px;
       margin-top: 0px;
   }
-
-
-footer {
-    height: 10%;
-    padding: 0px;
+/*
+.foot-row{
+    padding: 20px;
+    font-size: 15px;
+    text-align: center;
+    font-weight: 900;
+    background-color: #778899;
     color: #fff;
-    font-size: 12px;
-    background-color: #B3B3B9;
+    vertical-align: bottom;
+}
+*/
+footer {
+    padding: 20px;
+    font-size: 15px;
+    text-align: center;
+    font-weight: 900;
+    background-color: #778899;
+    color: #fff;
+    vertical-align: bottom;
 }
 
-footer a, footer a:hover {
+    footer a, footer a:hover {
         color: #fff;
         text-decoration: none;
-}
-
+    }
 
 
