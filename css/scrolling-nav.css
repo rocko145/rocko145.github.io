@@ -16,7 +16,7 @@ html {
 
 @media(min-width:767px) {
     .navbar {
-        padding: 20px 0;
+        padding: 10px 0;
         -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
         -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
         transition: background .5s ease-in-out,padding .5s ease-in-out;
@@ -33,7 +33,7 @@ of those sections to manage the look and feel of the site. */
 
 .intro-section {
     height: 100%;
-    padding-top: 150px;
+    padding-top: 50px;
     text-align: center;
     /*background: #fff;*/
 }
@@ -79,16 +79,22 @@ color works in IE7+
 }
 
 .intro-row{
-     padding-top: 30px;
+     padding-top: 0px;
 }
 
 .intro-cost{
-     padding-top: 60px;
+     padding-top: 0px;
 }
 
-.first-head-set {
-    padding-top: 10px;
-    padding-bottom: 20px;
+.intro-pic .overlay{
+    background: rgba(250, 250, 250,0.5);
+}
+
+.jum{
+height: 520px;
+background: url(../mustang2.jpg);
+background-size: cover;
+background-position: 0px -230px;
 }
 
 .contacts-sub{
@@ -140,12 +146,6 @@ color works in IE7+
     padding-top:30px;
     padding-left:15px;
 }
-
-.carousel-inner > .item > img {
-      width: 100%;
-      height: 750px;
-      margin-top: 0px;
-  }
 
 .interpic-con{
     background: url(../ferrari2.jpg);
