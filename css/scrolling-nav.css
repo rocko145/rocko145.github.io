@@ -33,7 +33,7 @@ of those sections to manage the look and feel of the site. */
 
 .intro-section {
     height: 100%;
-    padding-top: 50px;
+    padding-top: 0px;
     text-align: center;
     /*background: #fff;*/
 }
@@ -86,8 +86,13 @@ color works in IE7+
      padding-top: 0px;
 }
 
-.intro-pic .overlay{
-    background: rgba(250, 250, 250,0.5);
+.intro-title{
+    padding-top: 125px;
+}
+
+.jum .overlay{
+    background: rgba(250, 250, 250,0.85);
+     min-height: 550px;
 }
 
 .jum{
