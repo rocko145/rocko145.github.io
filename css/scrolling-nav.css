@@ -35,7 +35,7 @@ of those sections to manage the look and feel of the site. */
     height: 100%;
     padding-top: 150px;
     text-align: center;
-    background: rgba(141,182,205, 0.7);
+    /*background: #fff;*/
 }
 
 .doc-section {
@@ -76,6 +76,19 @@ border-color works in Chrome and Safari
 background-color works in Firefox and Opera
 color works in IE7+
 */
+}
+
+.intro-row{
+     padding-top: 30px;
+}
+
+.intro-cost{
+     padding-top: 60px;
+}
+
+.first-head-set {
+    padding-top: 10px;
+    padding-bottom: 20px;
 }
 
 .contacts-sub{
@@ -167,10 +180,4 @@ footer {
     color: #fff;
     vertical-align: bottom;
 }
-
-    footer a, footer a:hover {
-        color: #fff;
-        text-decoration: none;
-    }
-
 
