@@ -79,7 +79,8 @@ color works in IE7+
 }
 
 .intro-row{
-     padding-top: 0px;
+     padding-top: 20px;
+     padding-bottom: 40px;
 }
 
 .intro-cost{
@@ -96,7 +97,7 @@ color works in IE7+
 }
 
 .jum{
-height: 520px;
+height: 500px;
 background: url(../mustang2.jpg);
 background-size: cover;
 background-position: 0px -230px;
