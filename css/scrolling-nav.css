@@ -101,13 +101,13 @@ color works in IE7+
 
 .jum{
 height: 470px;
-background: url(../mustang2.jpg);
+background: url(../pics/mustang2.jpg);
 background-size: cover;
 background-position: 0px -230px;
 }
 
 .contacts-sub{
-    padding-bottom: 20px;
+    padding-bottom: 0px;
 }
 
 #contact h1 {
@@ -147,7 +147,7 @@ background-position: 0px -230px;
 }
 
 #map-canvas {
-    height:450px;
+    height:550px;
     
 }
 
@@ -157,7 +157,7 @@ background-position: 0px -230px;
 }
 
 .interpic-con{
-    background: url(../ferrari2.jpg);
+    background: url(../pics/ferrari2.jpg);
     background-attachment: fixed;
     -webkit-background-size: cover;
     background-size: cover;
@@ -169,7 +169,7 @@ background-position: 0px -230px;
 }
 
 .interpic-doc{
-    background: url(../ferrari1.jpg);
+    background: url(../pics/ferrari1.jpg);
     background-attachment: fixed;
     -webkit-background-size: cover;
     background-size: cover;
@@ -178,6 +178,14 @@ background-position: 0px -230px;
 .interpic-doc .overlay{
     min-height: 300px;
     background: rgba(250, 250, 250,0.5);
+}
+
+.thumbnail-maps{
+  padding-top: 15px;
+}
+
+.comute-li{
+ padding-top: 10px;
 }
 
 footer {
