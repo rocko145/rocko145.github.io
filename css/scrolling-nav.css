@@ -32,32 +32,38 @@ The padding is very important to make sure the scrollspy picks up the right area
 of those sections to manage the look and feel of the site. */
 
 .intro-section {
+  
     padding-top: 0px;
     text-align: center;
     /*background: #fff;*/
 }
 
 .doc-section {
+
     padding-top: 70px;
     text-align: center;
+    
     /*background: #eee;*/
+
 }
 
 .contact-section {
+
     padding-top: 70px;
-    padding-bottom: 35px;
+    padding-bottom: 70px;
     text-align: left;
    /* background: url('../race.jpg');
     -webkit-background-size: cover;
     background-size: cover;
     -moz-background-size: cover;
-    background-attachment: fixed; */
+background-attachment: fixed; */
 }
 
 
 #contact .overlay {
     height: 100%;
     background-color: rgba(255, 255, 255,0); /*.75 opacity of the color so that background image is visible*/
+
 }
 
 
@@ -87,17 +93,17 @@ color works in IE7+
 }
 
 .jum .overlay{
-    background: rgba(201, 230, 228,0.75);
+    background: rgba(250, 250, 250,0.85);
     min-height: 430px;
     position: relative;
     top: -27px;
 }
 
 .jum{
-	height: 470px;
-	background: url(../pics/mustang2.jpg);
-	background-size: cover;
-	background-position: 0px -230px;
+height: 470px;
+background: url(../pics/mustang2.jpg);
+background-size: cover;
+background-position: 0px -230px;
 }
 
 .contacts-sub{
@@ -105,13 +111,19 @@ color works in IE7+
 }
 
 #contact h1 {
-    font-size: 40px;  
-}
+        /*padding-top: 80px; 
+        font-weight: 900;  */
+        font-size: 40px;  
+    }
     
  #contact h3 {
      font-weight: 450;
      padding-top: 0px;
  }
+
+.half-doc{
+ 
+}
 
 .pad-bottom1 {
     padding-bottom: 30px;
@@ -125,18 +137,9 @@ color works in IE7+
     padding-top: 15px;
 }
 
-.half-doc2{
- background-color: #B8B3AF;   
- margin: 0px -15px; 
-}
-
 .jambo-pay{
     padding-top: 15px;
     padding-bottom: 65px;
-    background-color: #607A94;
-    color: #fff;
-    margin-left: 35px;
-    margin-right: 35px;
 }
 
 .dovidka-pic{
@@ -185,15 +188,12 @@ color works in IE7+
  padding-top: 10px;
 }
 
-.navbar{
-  
-}
 footer {
     padding: 20px;
-    font-size: 16px;
+    font-size: 15px;
     text-align: center;
-    font-weight: 700;
-    background-color: #607A94;
+    font-weight: 900;
+    background-color: #808080;
     color: #fff;
     vertical-align: bottom;
 }
