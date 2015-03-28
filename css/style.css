@@ -87,7 +87,7 @@ color works in IE7+
 }
 
 .jum .overlay{
-    background: rgba(201, 230, 228,0.75);
+    background: rgba(255, 255, 255,0.75);
     min-height: 430px;
     position: relative;
     top: -27px;
@@ -133,8 +133,7 @@ color works in IE7+
 .jambo-pay{
     padding-top: 15px;
     padding-bottom: 65px;
-    background-color: #607A94;
-    color: #fff;
+    background-color: rgba(184, 179, 175,0.45);
     margin-left: 35px;
     margin-right: 35px;
 }
